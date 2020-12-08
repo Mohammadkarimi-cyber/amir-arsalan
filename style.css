@@ -110,14 +110,18 @@ nav {
 .burger {
     display: none;
     cursor: pointer;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    right: 6%;
 }
 /* logo */
 .logo {
     position: absolute;
-    left: 25px;
+    left: 2%;
     top: 35px;
-    width: 25%;
-    height: 10vh;
+    width: 30%;
+    height: 70%;
 }
 /* motto */
 .motto-text {
@@ -262,7 +266,7 @@ nav {
 }
 .step p {
     display: inline-block;
-    width: 450px;
+    width: 80%;
 }
 .step {
     margin: 30px 10px;
@@ -279,8 +283,8 @@ nav {
     color: #fff;
 }
 .team-box img {
-    width: 250px;
-    height: 150px;
+    width: 90%;
+    height: 65%;
 }
 .team div:first-child {
     margin-left: 35px;
@@ -288,6 +292,7 @@ nav {
 .team-box p,h4 {
     margin-top: 10px;
     color: #fff;
+    width: 90%;
 }
 
 /* FOOTER */
@@ -321,7 +326,7 @@ footer .row p {
     margin-left: 60px;
 }
 .licons a:first-child {
-    margin-left: 280px;
+    margin-left: 35%;
 }
 .licons a {
     
