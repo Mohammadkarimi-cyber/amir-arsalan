@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Whatsapp</title>
+    <link rel="stylesheet" type="text/css" href="vendor/css/grid.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h2 {
+            margin-bottom: 30px;
+            word-spacing: 2px;
+            font-size: 180%;
+            text-align: center;
+            letter-spacing: 1px;
+            color: #555;
+            font-weight: 300;
+            text-transform: uppercase;
+        }
+        h2:after {
+            display: block;
+            background-color: #32a852;
+            width: 200px;
+            height: 1px;
+            content: " ";
+            margin: 30px auto 0 auto;
+        }
+        p {
+            color: #555;
+            font-weight: 300;
+            display: inline;
+            font-size: 30px;
+            margin-left: 55px;
+            transition: color .3s, letter-spacing .3s, margin-left .3s;
+            cursor: pointer;
+        }
+        p:hover {
+            color: #32a852;
+            margin-left: 50px;
+            letter-spacing: 1px;
+        }
+        .phone {
+            color: #555;
+            top: 208px;
+            font-size: 30px;
+        }
+        .no-1 {margin-top: 20px;}
+        .no-2 { margin-top: px;}
+        .no-1 .phone {
+            position: absolute;
+            top: 246px;
+        }
+        .no-2 .phone {
+            position: absolute;
+            top: 320px;
+        }
+        img {
+            
+            width: 300px;
+            height: 300px;
+            margin: -40px auto auto 170px;
+        }
+    </style>
+</head>
+<body>
+    <h2>You can contact us via whatsapp</h2>
+    <div class="row">
+        <div class="col span-1-of-2">
+            <img src="whatsapplogo.png">
+        </div>
+        <div class="col span-1-of-2">
+            <div class="no-1">
+                <ion-icon name="call-outline" class="phone"></ion-icon>
+                <p id="n1">+93 783 860 890</p>
+            </div>
+            <div class="no-2">
+                <ion-icon name="call-outline" class="phone"></ion-icon>
+                <p id="n1">+93 784 060 037</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+</html>
