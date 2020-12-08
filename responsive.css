@@ -1,0 +1,71 @@
+/*big tablet to 1200px*/
+@media only screen and (max-width: 1200px) {
+    .row {
+        padding: 0 2%;
+    }
+    header { 
+        width: 100%;
+        padding: 2%;
+    }
+    .logo { margin-left: 20px; }
+}
+
+/*small tablet to big tablet*/
+@media only screen and (max-width: 1024px) {
+    body { font-size: 18px; }
+    .list { margin-right: 20px; }
+    .list li { margin: 50px 10px 0 10px; }
+    .list li a { word-spacing: 1px; }
+    .logo { margin-left: 0px; }
+    .motto-text {
+        left: 90px;
+        font-size: 230%;
+    }
+    .header-btn button {
+        width: 130px;
+        height: 50px;
+    }
+    .btn-1 { left: 90px; }
+    .btn-2 { left: 240px; }
+    .plan-box { width: 90%; }
+    .plan-price { font-size: 300%; }
+    .q-img { margin: 30px 20px auto 110px; }
+    .step div {
+        font-size: 30px;
+        width: 45px;
+        height: 45px;
+        font-size: 140%;
+        margin-right: 10px;
+    }
+    #first-step { margin-top: 50px; }
+    .step { margin: 30px 5px; }
+}
+
+/*small phone to small tablet*/
+@media only screen and (max-width: 800px) {
+    body { font-size: 17px; }
+    .list { display: none; }
+    .burger { display: block; }
+    .motto-text {
+        font-size: 230%;
+    }
+    .licons a:first-child { margin-left: 30%; }
+    .motto-text {
+        left: 60px;
+        font-size: 220%;
+    }
+    .btn-1 { left: 60px; }
+    .btn-2 { left: 210px; }
+    .plan-price { font-size: 200%; }
+    h2 { font-size: 150%; }
+    .q-img { margin: 55px 20px auto 85px; }
+    .lpara p { margin-left: 20px; }
+    .licons a:first-child { margin-left: 20%; }
+    .licons a ion-icon { font-size: 20px; }
+    #copy { font-size: 83%; }
+}
+
+/*small phones*/
+@media only screen and (max-width: 500px) {
+    
+}
