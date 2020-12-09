@@ -47,13 +47,10 @@
     .list { display: none; }
     .burger { display: block; }
     .motto-text {
+        left: 50px;
         font-size: 230%;
     }
     .licons a:first-child { margin-left: 30%; }
-    .motto-text {
-        left: 60px;
-        font-size: 220%;
-    }
     .btn-1 { left: 60px; }
     .btn-2 { left: 210px; }
     .plan-price { font-size: 200%; }
@@ -67,5 +64,35 @@
 
 /*small phones*/
 @media only screen and (max-width: 500px) {
-    
+    body { font-size: 15px; }
+    h2 { font-size: 135%; }
+    .logo { margin-left: 0px;
+    width: 180px;}
+    .burger { font-size: 35px; }
+    .motto-text {
+        font-size: 200%;
+        left: 20px;
+    }
+    .header-btn button {
+        width: 100px;
+        height: 38px;
+    }
+    .btn-1 { left: 25px; }
+    .btn-2 { left: 140px; }
+    .what-para { margin: auto 20px; }
+    .what-include { margin: 20px auto auto 35px; }
+    .step div {
+        width: 30px;
+        height: 30px;
+        font-size: 120%;
+        padding: 2px;
+    }
+    .team div:first-child { margin-left: 20px; }
+    .team-box p,h4,img { width: 70%; height: 50%; }
+    .team-box p,h4 { font-size: 90%; }
+    .q-img { margin: 55px 20px auto 60px; }
+    .lpara p { margin-left: 10px; }
+    .licons a:first-child { margin-left: 10%; }
+    .licons a ion-icon { font-size: 18px; margin: 5px; }
+    #copy { font-size: 75%; margin-top: 5px; }
 }
