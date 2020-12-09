@@ -75,7 +75,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(hero.jpg);
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
 }
 /* navigation */
 nav {
@@ -126,7 +126,7 @@ nav {
 /* motto */
 .motto-text {
     position: absolute;
-    top: 320px;
+    top: 40vh;
     left: 180px;
     text-transform: uppercase;
     font-size: 250%;
@@ -136,7 +136,7 @@ nav {
 /* buttons */
 .header-btn button {
     position: absolute;
-    top: 450px;
+    top: 65vh;
     width: 150px;
     height: 50px;
     font-size: 90%;
@@ -331,6 +331,7 @@ footer .row p {
 .licons a {
     
     border: none;
+    
 }
 #copy {
     color: #828282;
